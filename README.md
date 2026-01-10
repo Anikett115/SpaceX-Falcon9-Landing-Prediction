@@ -23,14 +23,23 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 ### Flight Number vs Launch Site
 ![Flight Number vs Launch Site](images/flight-number-vs-launch-site.png)
 
+*Insight:* CCAFS SLC 40 shows a higher concentration of successful launches in later flight numbers, suggesting operational maturity and frequent reuse at this site.
+
 ### Flight Number vs Orbit Type
 ![Flight Number vs Orbit Type](images/flight-number-vs-orbit-type.png)
+
+*Insight:* Missions to LEO and ISS exhibit higher success rates compared to more complex orbits, indicating that orbit complexity plays a role in landing success.
 
 ### Launch Success Trend Over Time
 ![Launch Success Trend](images/launch-success-trend-over-time.png)
 
+*Insight:* Later flight numbers show higher success rates, indicating learning effects over time as SpaceX refined reusability and landing techniques.
+
 ### Payload Mass vs Launch Site
 ![Payload Mass vs Launch Site](images/payload-mass-vs-launch-site.png)
+
+*Insight:* Higher payload masses are predominantly launched from CCAFS SLC 40, where successful landings are still achieved, demonstrating SpaceX’s growing capability to recover boosters under heavier loads.
+
 
 ---
 
@@ -39,17 +48,27 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 ### Launch Outcome Distribution
 ![Launch Outcome Distribution](images/launch-outcome-distribution.png)
 
+*Insight:* Successful and failed launches are geographically clustered around launch sites, with a higher density of successes in recent missions.
+
 ### Spatial Clustering of Launch Outcomes
 ![Launch Outcome Clustering](images/launch-outcome-clustering.png)
+
+*Insight:* Launch outcomes form visible clusters near the launch site, indicating consistent recovery zones and controlled descent trajectories.
 
 ### Distance to Nearest Infrastructure
 ![Launch Site Distance](images/launch-site-distance.png)
 
+*Insight:* Launch sites are strategically located at safe distances from cities, railways, and highways, minimizing risk while maintaining logistical accessibility.
+
 ### Cape Canaveral Launch Site Map
 ![Cape Canaveral](images/cape-canaveral-launch-site-map.png)
 
+*Insight:* Cape Canaveral’s proximity to coastline and infrastructure supports efficient launch operations and controlled booster recovery in nearby landing zones.
+
 ### Vandenberg Launch Site Map
 ![Vandenberg](images/vandenberg-launch-site-map.png)
+
+*Insight:* Vandenberg’s coastal location enables polar orbit missions while ensuring safe downrange recovery paths over the ocean.
 
 ---
 
