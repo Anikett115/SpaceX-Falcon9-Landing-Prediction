@@ -40,6 +40,18 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 
 *Insight:* Higher payload masses are predominantly launched from CCAFS SLC 40, where successful landings are still achieved, demonstrating SpaceX’s growing capability to recover boosters under heavier loads.
 
+---
+## Why SQL Was Used Separately
+
+SQL-based exploratory analysis is intentionally isolated in  
+`03_sql_exploratory_data_analysis.ipynb` to demonstrate proficiency in relational querying, aggregation, and analytical reasoning directly at the database level.
+
+While Pandas is used in other notebooks for in-memory transformations, visualization, and machine learning workflows, SQL is leveraged here to showcase the ability to:
+- Perform exploratory analysis using production-style querying
+- Apply filtering, grouping, and aggregation at scale
+- Translate business questions into structured queries
+
+This separation reflects real-world data workflows, where exploratory insights are often derived directly from databases before downstream processing and modeling.
 
 ---
 
@@ -123,6 +135,15 @@ Multiple classification models were trained and evaluated to predict Falcon 9 fi
 Among these, the **Support Vector Machine (SVM)** model achieved the **highest performance**, demonstrating superior accuracy and generalization on unseen data.
 
 This result indicates that SVM effectively captures the non-linear relationships between launch parameters and landing outcomes, making it the most reliable model for this prediction task.
+
+---
+
+### Model Performance Summary
+
+Although multiple models achieved similar accuracy (~74%), accuracy alone was found to be misleading due to class imbalance in the dataset.
+
+Among all evaluated classifiers, the Support Vector Machine (SVM) demonstrated the most balanced performance, achieving recall values of **75% for successful landings** and **73% for failed landings**. This indicates minimal class bias and stronger generalization compared to other models, which tended to favor the majority class.
+This evaluation emphasizes model reliability over raw accuracy, prioritizing consistent performance across both outcome classes.
 
 ---
 
