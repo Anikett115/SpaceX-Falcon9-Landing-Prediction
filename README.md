@@ -94,7 +94,6 @@ This separation reflects real-world data workflows, where exploratory insights a
 - `06_spacex_launch_success_prediction.ipynb` – Machine learning modeling and evaluation
 - `images/` – Visualization images used in README
 
-
 ---
 
 ## How to Run the Project
@@ -110,18 +109,6 @@ The notebooks in this repository are designed to be executed **sequentially (01 
 6. `06_spacex_launch_success_prediction.ipynb` – Machine learning modeling and evaluation  
 
 Running the notebooks in this order ensures all intermediate datasets and transformations are generated correctly.
-
----
-
-## Requirements
-- Python 3.8+
-- Jupyter Notebook
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-- folium
 
 ---
 
