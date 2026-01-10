@@ -147,6 +147,14 @@ This evaluation emphasizes model reliability over raw accuracy, prioritizing con
 
 ---
 
+### SVM Classification Report
+![SVM Classification Report](images/svm-classification-report.png)
+
+### SVM Confusion Matrix
+![SVM Confusion Matrix](images/svm-confusion-matrix.png)
+
+---
+
 ##  Key Insights
 - Launch site location significantly affects landing success  
 - Certain orbit types show consistently higher success rates  
