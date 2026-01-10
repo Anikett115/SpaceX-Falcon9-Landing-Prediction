@@ -94,6 +94,35 @@ This separation reflects real-world data workflows, where exploratory insights a
 - `06_spacex_launch_success_prediction.ipynb` – Machine learning modeling and evaluation
 - `images/` – Visualization images used in README
 
+
+---
+
+## How to Run the Project
+
+The notebooks in this repository are designed to be executed **sequentially (01 → 06)**
+
+### Execution Order
+1. `01_data_collection_api.ipynb` – Collect launch data using the SpaceX REST API  
+2. `02_data_wrangling_feature_engineering.ipynb` – Clean and prepare features  
+3. `03_sql_exploratory_data_analysis.ipynb` – Perform SQL-based exploratory analysis  
+4. `04_exploratory_data_analysis_visualization.ipynb` – Visual EDA and insights  
+5. `05_spacex_launch_site_geospatial_analysis.ipynb` – Geospatial analysis using Folium  
+6. `06_spacex_launch_success_prediction.ipynb` – Machine learning modeling and evaluation  
+
+Running the notebooks in this order ensures all intermediate datasets and transformations are generated correctly.
+
+---
+
+## Requirements
+- Python 3.8+
+- Jupyter Notebook
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- folium
+
 ---
 
 ##  Datasets
