@@ -72,13 +72,15 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 
 ---
 
-##  Repository Structure
-01_data_collection_api.ipynb
-02_data_wrangling_feature_engineering.ipynb
-03_sql_exploratory_data_analysis.ipynb
-04_exploratory_data_analysis_visualization.ipynb
-05_spacex_launch_site_geospatial_analysis.ipynb
-06_spacex_launch_success_prediction.ipynb
+## Repository Structure
+
+- `01_data_collection_api.ipynb` – Data collection using SpaceX REST API
+- `02_data_wrangling_feature_engineering.ipynb` – Data cleaning and feature engineering
+- `03_sql_exploratory_data_analysis.ipynb` – SQL-based exploratory analysis
+- `04_exploratory_data_analysis_visualization.ipynb` – Visual EDA
+- `05_spacex_launch_site_geospatial_analysis.ipynb` – Geospatial analysis using Folium
+- `06_spacex_launch_success_prediction.ipynb` – Machine learning modeling and evaluation
+- `images/` – Visualization images used in README
 
 ---
 
@@ -106,6 +108,21 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 - Logistic Regression  
 - Support Vector Machine (SVM)  
 - Decision Tree Classifier  
+
+---
+
+## Machine Learning Results
+
+Multiple classification models were trained and evaluated to predict Falcon 9 first-stage landing success:
+
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- Decision Tree  
+- K-Nearest Neighbors (KNN)  
+
+Among these, the **Support Vector Machine (SVM)** model achieved the **highest performance**, demonstrating superior accuracy and generalization on unseen data.
+
+This result indicates that SVM effectively captures the non-linear relationships between launch parameters and landing outcomes, making it the most reliable model for this prediction task.
 
 ---
 
