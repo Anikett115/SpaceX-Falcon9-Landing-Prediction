@@ -17,45 +17,39 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 - Build and evaluate machine learning models for landing success prediction  
 
 ---
+
 ## Exploratory Data Analysis (EDA)
 
-Key visual insights from the exploratory data analysis are shown below.
-
 ### Flight Number vs Launch Site
-![Flight Number vs Launch Site](images/Flight Number vs Launch Site.png)
+![Flight Number vs Launch Site](images/flight-number-vs-launch-site.png)
 
 ### Flight Number vs Orbit Type
-![Flight Number vs Orbit Type](images/Flight Number vs Orbit Type.png)
+![Flight Number vs Orbit Type](images/flight-number-vs-orbit-type.png)
 
 ### Launch Success Trend Over Time
-![Launch Success Trend Over Time](images/Launch Success Trend Over Time.png)
+![Launch Success Trend](images/launch-success-trend-over-time.png)
 
 ### Payload Mass vs Launch Site
-![Payload Mass vs Launch Site](images/Payload Mass vs Launch Site.png)
-
-### Payload Mass vs Orbit Type
-![Payload Mass vs Orbit Type](images/Payload Mass vs Orbit Type.png)
+![Payload Mass vs Launch Site](images/payload-mass-vs-launch-site.png)
 
 ---
 
 ## Geospatial Analysis
 
-Geospatial analysis was performed using Folium to study launch site locations, nearby infrastructure, and launch outcomes.
-
-### Launch Outcome Distribution (Geospatial)
-![Launch Outcome](images/Launch Outcome Visualization_two.png)
+### Launch Outcome Distribution
+![Launch Outcome Distribution](images/launch-outcome-distribution.png)
 
 ### Launch Outcome Clustering Near Launch Site
-![Launch Outcome Clustering](images/Launch Outcome Visualization_3.png)
+![Launch Outcome Clustering](images/launch-outcome-clustering.png)
 
 ### Distance to Nearest Infrastructure
-![Launch Site Distance](images/Launch_site_dist.png)
+![Launch Site Distance](images/launch-site-distance.png)
 
 ### Cape Canaveral Launch Site Map
-![Cape Canaveral](images/Mapping SpaceX Launch Sites_two.png)
+![Cape Canaveral](images/cape-canaveral-launch-site-map.png)
 
 ### Vandenberg Launch Site Map
-![Vandenberg](images/Mapping SpaceX Launch Sites_three.png)
+![Vandenberg](images/vandenberg-launch-site-map.png)
 
 ---
 
