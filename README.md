@@ -39,7 +39,7 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 ### Launch Outcome Distribution
 ![Launch Outcome Distribution](images/launch-outcome-distribution.png)
 
-### Launch Outcome Clustering Near Launch Site
+### Spatial Clustering of Launch Outcomes
 ![Launch Outcome Clustering](images/launch-outcome-clustering.png)
 
 ### Distance to Nearest Infrastructure
