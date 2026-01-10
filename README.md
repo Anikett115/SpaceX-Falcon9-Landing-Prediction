@@ -1,15 +1,15 @@
 ---
 
-# 🚀 SpaceX Falcon 9 Landing Success Prediction
+#  SpaceX Falcon 9 Landing Success Prediction
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 This project is an end-to-end data science capstone that analyzes historical SpaceX Falcon 9 launch data and builds machine learning models to predict the success of first-stage landings.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Collect launch data using the SpaceX REST API  
 - Perform data wrangling and feature engineering  
 - Conduct exploratory data analysis using SQL and visualization  
@@ -18,7 +18,7 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 01_data_collection_api.ipynb
 02_data_wrangling_feature_engineering.ipynb
 03_sql_exploratory_data_analysis.ipynb
@@ -28,7 +28,7 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 
 ---
 
-## 📊 Datasets
+##  Datasets
 - `Spacex.csv` – Raw SpaceX launch data  
 - `data_falcon91` – Intermediate processed dataset  
 - `updated_data_falcon92` – Final cleaned dataset used for modeling  
@@ -38,7 +38,7 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python  
 - Pandas, NumPy  
 - Matplotlib, Seaborn  
@@ -48,21 +48,21 @@ This project is an end-to-end data science capstone that analyzes historical Spa
 
 ---
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 - Logistic Regression  
 - Support Vector Machine (SVM)  
 - Decision Tree Classifier  
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 - Launch site location significantly affects landing success  
 - Certain orbit types show consistently higher success rates  
 - Machine learning models achieve strong predictive performance  
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 This project demonstrates how historical SpaceX launch data combined with data science and machine learning techniques can be used to predict Falcon 9 first-stage landing outcomes.
 
 ---
