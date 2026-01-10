@@ -132,11 +132,13 @@ Running the notebooks in this order ensures all intermediate datasets and transf
 
 ---
 
-##  Machine Learning Models
-- Logistic Regression  
-- Support Vector Machine (SVM)  
-- Decision Tree Classifier  
+## Machine Learning Models
 
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Decision Tree Classifier
+- K-Nearest Neighbors (KNN)
+ 
 ---
 
 ## Machine Learning Results
