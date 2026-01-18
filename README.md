@@ -57,7 +57,7 @@ This separation reflects real-world data workflows, where exploratory insights a
 
 ## Geospatial Analysis
 
-### 🌍 Interactive Geospatial Map
+### Interactive Geospatial Map
 GitHub does not render interactive Folium maps.
 
 Please download and open `spacex_launch_site_map.html` locally to view the interactive launch site map.
